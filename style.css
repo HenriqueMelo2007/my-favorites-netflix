@@ -1,0 +1,155 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Chivo', sans-serif;
+}
+
+/* Centralização */
+body {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(assets/background-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Avatar */
+.avatar {
+  margin-top: 20px;
+  width: 110px;
+  background: linear-gradient(90deg, rgb(229, 9, 20) 0%, rgb(197, 85, 91) 50.52%, rgba(26, 25, 25, 0.267) 100%);
+  border-radius: 50%;
+  display: flex;
+  padding: 4px;
+  transition: .3s;
+}
+
+.avatar:hover {
+  transform: scale(1.05)
+}
+
+.avatar-image {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+}
+
+/* Card */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: rgba(30, 30, 32, 0.65);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+
+  height: 270px;
+  width: 900px;
+}
+
+h2 {
+  color: rgb(229, 9, 20);
+}
+
+p {
+  color: rgb(128, 128, 128);
+}
+
+/* Swiper */
+.swiper {
+  border-radius: 20px;
+  width: 810px;
+  height: 150px;
+  background-color: rgb(30, 30, 32);
+  box-shadow: 0 0 10px 3px rgb(0, 0, 0);
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.swiper-item {
+  display: flex;
+  gap: 5vw;
+}
+
+.netflix-serie, .netflix-movie {
+  height: 94.5px;
+  width: 178.5px;
+  border-radius: 12px;
+  transition: .3s;
+}
+
+.netflix-serie:hover, .netflix-movie:hover {
+  transform: scale(1.1)
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: rgb(229, 9, 20);
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  padding: 0 50px;
+  background-color: rgb(30, 30, 32);
+
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.netflix-icon-footer {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+footer p {
+  color: rgb(229, 9, 20);
+}
+
+.social-media-icon-footer {
+  max-width: 20px;
+  max-height: 20px;
+}
