@@ -247,7 +247,20 @@ footer p {
 
 
 
-@media (max-width: 590px) {}
+@media (max-width: 590px) {
+  .card {
+    gap: 12px;
+    padding: 20px;
+
+    height: 270px;
+    width: 500px;
+  }
+
+  .swiper {
+    width: 450px;
+    height: 150px;
+  }
+}
 
 
 
