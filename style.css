@@ -153,7 +153,9 @@ footer p {
   max-height: 20px;
 }
 
-/* Breakpoints */
+/* BREAKPOINTS */
+
+/* Change of images */
 @media (max-width: 1040px) {
   body {
     background-image: url(assets/background-tablet.png);
@@ -161,8 +163,13 @@ footer p {
   }
 }
 
+@media (max-width: 564px) {
+  body {
+    background-image: url(assets/background-mobile.jpg);
+  }
+}
 
-
+/* Breakpoints for card, swiper and footer */
 @media (max-width: 930px) {
   .card {
     width: 850px;
@@ -330,22 +337,5 @@ footer p {
 
   footer {
     padding: 0 10px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 564px) {
-  body {
-    background-image: url(assets/background-mobile.jpg);
   }
 }

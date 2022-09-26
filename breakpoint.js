@@ -1,9 +1,12 @@
+/* Trazendo o corpo da página e verificando a largura */
 const body = document.querySelector('body')
 let bodySize = body.clientWidth
 
+/* Trazendo as duas divs que recebem a classe swiper-wrapper */
 const wrapperOne = document.querySelector('#wrapper-one')
 const wrapperTwo = document.querySelector('#wrapper-two')
 
+/* Função para modificar o conteído interno de cada swiper-wrapper. Para que seja apresentada uma série/filme por vez */
 function breakpoint() {
   if (bodySize < 591) {
     wrapperOne.innerHTML = `

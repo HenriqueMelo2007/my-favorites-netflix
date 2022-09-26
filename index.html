@@ -10,6 +10,9 @@
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script defer src="swiper.js"></script>
 
+  <!-- Breaking Swiper -->
+  <script defer src="breakpoint.js"></script>
+
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,26 +24,27 @@
   <!-- Título e favicon -->
   <title>My Favorites Netflix</title>
   <link rel="shortcut icon" href="assets/favicon-netflix.png" type="image/x-icon">
-
-  <script defer src="breakpoint.js"></script>
-  
 </head>
 <body>
 
   <main class="container">
 
+    <!-- Avatar -->
     <header>
       <div class="avatar">
           <img class="avatar-image" src="assets/avatar.jpg" />
       </div>
     </header>
 
+    <!-- Sessão com os cards -->
     <section class="content">
 
+      <!-- Primeiro Card -->
       <div class="card">
         <h2>Minhas séries favoritas</h2>
         <p>As séries da Netflix que mais gostei</p>
 
+        <!-- Swiper (biblioteca JavaScript de carrossel) -->
         <div class="swiper">
 
           <div class="swiper-wrapper" id="wrapper-one">
@@ -81,10 +85,12 @@
         </div>
       </div>
 
+      <!-- Segundo Card -->
       <div class="card">
         <h2>Meus filmes favoritos</h2>
         <p>Os filmes da Netflix que mais gostei</p>
 
+        <!-- Swiper (biblioteca JavaScript de carrossel) -->
         <div class="swiper">
 
           <div class="swiper-wrapper" id="wrapper-two">
@@ -129,6 +135,7 @@
 
   </main>
 
+  <!-- Rodapé -->
   <footer>
 
     <img class="netflix-icon-footer" src="assets/netflix-icon-footer.png" alt="Ícone da Netflix">
